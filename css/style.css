@@ -1,0 +1,224 @@
+.body{
+    background-color: black;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+ 
+}
+
+.title{
+    font-size: 45px;
+}
+
+.h1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.h2{
+    font-weight: 100;
+    line-height: normal;
+    text-align: center;
+}
+
+h3{
+    text-align: right;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.x{
+    padding: 90px;
+    max-width: 600x;
+    text-align: center;
+}
+
+
+.y{
+    padding: 50px;
+    max-width: 400x;
+    text-align: center;
+    font-weight: 400;
+}
+
+.z{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 400x;
+    text-align: center;
+}
+
+.w{
+    text-align: center;
+    font-size: 40px;
+}
+
+.hist{
+    text-align: right;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.oria{
+    text-align: left;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+/*Menu*/
+.header{
+    width: 1200px;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    background-image: linear-gradient(-45deg, #760076,  #100078);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    padding-left: 15px;
+    font-size: 50px;
+    text-shadow: 0 0 15px #F1216F, 0 0 30px white;
+}
+
+li{display: inline-block;
+margin: 20PX;}
+
+.a{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.a:hover{
+    color: #F1216F;
+    transition: 0.3s all;
+}
+
+.cabecalho{
+    width: 1200px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+    background-image: url(../imgs/welcome.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+/*O que é*/
+.intro{
+    width: 600px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background-image: url(../imgs/planet2giphy.gif);
+    background-size: 600px 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.main{
+    display:flex;
+    flex-direction:row;
+}
+
+/*Como surgiu*/
+.hist1{
+    width: 300px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    background-image: url(../imgs/snow-crash-1.jpg);
+    background-size: 300px 500px;
+    background-repeat: no-repeat;
+    opacity: ;
+}
+
+.hist2{
+    width: 300px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    background-image: url(../imgs/readyplayeroneesse.png);
+    background-size: 300px 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+    opacity: ;
+    z-index: 1;
+
+}
+
+.histh1{
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/*Web 3.0*/
+.webtres{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.borda{
+    border-right: 5px solid white;
+    width: 400px;
+    height: 250px;
+    padding: 15px;
+}
+
+.aa{
+    background-color:#2E1AB1 ;
+}
+
+.b{
+    background-color:#F1216F ;
+}
+
+.c{
+    background-color:#980098 ;
+}
+
+/*Vida Real*/
+
+.halo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.size{
+    size: 600px;
+}
+
+.m{
+    padding: 40px;
+    max-width: 800x;
+    text-align: center;
+}
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(45deg, #F1216F,#2136f1, #0010a0);
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
