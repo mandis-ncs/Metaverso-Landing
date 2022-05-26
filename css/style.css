@@ -140,7 +140,7 @@ margin: 20PX;}
     background-image: url(../imgs/snow-crash-1.jpg);
     background-size: 300px 500px;
     background-repeat: no-repeat;
-    opacity: ;
+   
 }
 
 .hist2{
@@ -152,8 +152,7 @@ margin: 20PX;}
     background-image: url(../imgs/readyplayeroneesse.png);
     background-size: 300px 500px;
     background-repeat: no-repeat;
-    align-items: center;
-    opacity: ;
+
     z-index: 1;
 
 }
@@ -222,3 +221,29 @@ footer{
     margin-top: 30px;
 }
 
+.carrossel{
+    width:640px; /*referente a h da img*/
+    height:360px;
+    overflow: hidden;
+}
+
+.carrossel .fotos {
+    max-width: 100%;
+    background-size: contain;    
+    animation: animacao 10s infinite;
+
+}
+
+
+
+@keyframes animacao {
+    0% {margin-left:0;}
+    20%{margin-left:0%;}
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    75%{margin-left:-300%;}
+    95%{margin-left:-300%;}
+    100%{margin-left:-400%;}
+}
