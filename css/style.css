@@ -87,7 +87,7 @@ h3{
     text-shadow: 0 0 15px #F1216F, 0 0 30px white;
 }
 
-li{display: inline-block;
+.li{display: inline-block;
 margin: 20PX;}
 
 .a{
@@ -131,31 +131,7 @@ margin: 20PX;}
 }
 
 /*Como surgiu*/
-.hist1{
-    width: 300px;
-    height: 500px;
-    left: 0px;
-    top: 0px;
-    position: relative;
-    background-image: url(../imgs/snow-crash-1.jpg);
-    background-size: 300px 500px;
-    background-repeat: no-repeat;
-   
-}
 
-.hist2{
-    width: 300px;
-    height: 500px;
-    left: 0px;
-    top: 0px;
-    position: relative;
-    background-image: url(../imgs/readyplayeroneesse.png);
-    background-size: 300px 500px;
-    background-repeat: no-repeat;
-
-    z-index: 1;
-
-}
 
 .histh1{
     font-weight: 600;
@@ -164,7 +140,45 @@ margin: 20PX;}
     z-index: 2;
 }
 
+.carrossel{
+    width:1200px; /*referente a w da img*/
+    height: 600px;/*referente a h da img*/
+    overflow: hidden;
+    outline: none;
+     /*espaço fora*/
+    padding: 0px;
+    box-shadow: 10px 10px 35px rgb(54, 0, 54); /*eixo-x eixo-y espalhamento-sombra-em-px cor-sombra*/
 
+
+}
+
+.carrossel .ula{
+    display: flex;
+    list-style: none;
+    width: 3600px; /*w ttl das imgs*/
+    height: 600px; /*referente a h da img*/
+}
+
+.carrossel .lia{
+    position: relative;
+    animation: animacao 25s infinite ease-out;
+
+}
+
+
+@keyframes animacao {
+    0% {left:0px;}
+    30% {left: -50px;}
+    45% {left: -1200px;}
+    60% {left: -2400px;}
+    80% {left: -2500px;}
+    95% {left: -3600px;}
+    100%{left:0px;}
+}
+
+.gif{
+    width: 1200px;
+}
 
 /*Web 3.0*/
 .webtres{
@@ -219,31 +233,4 @@ footer{
     text-align: center;
     align-items: center;
     margin-top: 30px;
-}
-
-.carrossel{
-    width:640px; /*referente a h da img*/
-    height:360px;
-    overflow: hidden;
-}
-
-.carrossel .fotos {
-    max-width: 100%;
-    background-size: contain;    
-    animation: animacao 10s infinite;
-
-}
-
-
-
-@keyframes animacao {
-    0% {margin-left:0;}
-    20%{margin-left:0%;}
-    25%{margin-left:-100%;}
-    45%{margin-left:-100%;}
-    50%{margin-left:-200%;}
-    70%{margin-left:-200%;}
-    75%{margin-left:-300%;}
-    95%{margin-left:-300%;}
-    100%{margin-left:-400%;}
 }

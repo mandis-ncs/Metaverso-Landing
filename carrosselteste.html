@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Carrossel </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    
+
+
+.carrossel{
+    width:640px; /*referente a w da img*/
+    height:360px;/*referente a h da img*/
+    overflow: hidden;
+    outline: none;
+    margin: 60px auto; /*espaço fora*/
+    padding: 0px;
+    box-shadow: 10px 10px 15px rgb(54, 0, 54); /*eixo-x eixo-y espalhamento-sombra-em-px cor-sombra*/
+
+
+}
+
+.carrossel ul{
+    display: flex;
+    list-style: nones;
+    width: 1920px; /*w ttl das imgs*/
+    height: 360px; /*referente a h da img*/
+}
+
+.carrossel li{
+    position: relative;
+    animation: animacao 30s infinite ease-out;
+
+}
+
+
+@keyframes animacao {
+    0% {left:0px;}
+    25% {left: -640px;}
+    50% {left: -1280px;}
+    75% {left: -1920px;}
+    100%{left:-0px;}
+}
+</style>
+<body style="background-color: black;">
+    <div class="carrossel">
+        <ul>
+            <li>
+                <img src="img/1.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/2.jpg" alt="">
+            </li>
+            <li>
+                <img src="img/3.jpg" alt="">
+            </li>
+        </li>
+        <li>
+            <img src="img/4.jpg" alt="">
+        </li>
+        </ul>
+    </div>
+
+
+</body>
+</html>
